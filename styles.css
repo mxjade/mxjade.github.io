@@ -65,4 +65,122 @@ nav ul li a {
 .gift-card-grid {
     display: flex;
     flex-wrap: wrap;
-    justify
+        justify-content: center;
+    padding: 20px;
+}
+
+.gift-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    transition: box-shadow 0.3s;
+}
+
+.gift-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.gift-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.gift-card p {
+    font-size: 16px;
+    color: #333;
+}
+
+.gift-card button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.gift-card button:hover {
+    background-color: #218838;
+}
+
+.product-detail {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-detail h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-detail img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-detail label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.product-detail input,
+.product-detail textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.product-detail button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-detail button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
